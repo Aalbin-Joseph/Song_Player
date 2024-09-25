@@ -1,8 +1,8 @@
-##Song-Player
-#Overview
+### Song-Player
+# Overview
 This is a simple Spotify-like music streaming app built using Django. It allows users to select songs based on mood, control playback, adjust the volume, and navigate through the song playlist. The songs are served from the app's static directory, ensuring seamless local playback.
 
-#Features
+# Features
 Mood-based Song Selection: Users can choose from a list of predefined moods, and the app will filter and display songs based on the selected mood.
 
 Playback Controls: Includes essential controls for playing, pausing, and skipping to the next or previous songs.
@@ -15,13 +15,13 @@ Dynamic Background: The background of the app changes based on the currently pla
 
 Static Audio Hosting: Songs are hosted within the app’s static files, ensuring fast and reliable playback without external dependencies.
 
-#Installation
+# Installation
 1. Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/spotify-like-music-app.git  
-cd spotify-like-music-app  
+git clone https://github.com/Aalbin-Joseph/Song_Player.git  
+cd Song_Player  
 2. Install dependencies:
 
 bash
@@ -43,7 +43,7 @@ Visit http://127.0.0.1:8000/ to access the app.
 Configuration
 Make sure the songs are placed in the static/audio/ folder in your Django app. Update the song metadata (name, file paths, mood) in the database or directly within the Django views.
 
-#Usage
+# Usage
 1. Select a mood:
 Users can choose a mood from the dropdown, and the app will load and display songs accordingly.
 
@@ -53,7 +53,7 @@ You can use the play, pause, next, and previous buttons to control the songs. Ad
 3. Enjoy the dynamic interface:
 The background changes based on the song being played, providing a dynamic user experience.
 
-#File Structure
+# File Structure
 main_page.html: The main interface for the app, containing HTML and JavaScript code for song control and dynamic background changes.
 
 views.py: Django views to handle the logic of loading songs based on mood and serving audio files.
@@ -68,7 +68,7 @@ templates/: Stores the HTML templates for rendering the app’s UI.
 
 requirements.txt: Lists all the dependencies required to run the app.
 
-#Future Enhancements
+# Future Enhancements
 User Authentication: Allow users to sign in and save playlists or preferences.
 Database Integration: Store song metadata and user preferences in a database for easier management.
 Improved UI Design: Add more modern styles and transitions for a better user experience.
@@ -79,6 +79,6 @@ HTML, CSS, and JavaScript for building the frontend and controlling the playback
 
 Open-source libraries and tools for simplifying the development process.
 
-#Contact
+# Contact
 For any questions or feedback, please contact:
 aalbinjoseph292002@gmail.com
